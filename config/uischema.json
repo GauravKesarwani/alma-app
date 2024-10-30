@@ -1,0 +1,76 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/firstName",
+      "label": false,
+      "options": {
+        "placeholder": "First Name"
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/lastName",
+      "label": false,
+      "options": {
+        "placeholder": "Last Name"
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/email",
+      "options": {
+        "placeholder": "Email"
+      },
+      "label": false
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/country",
+      "label": false,
+      "options": {
+        "placeholder": "Country of Citizenship"
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/linkedin",
+      "label": false,
+      "options": {
+        "placeholder": "LinkedIn/Personal Websites URL"
+      }
+    },
+    {
+      "type": "Group",
+      "label": "Visa Categories of Interest ?",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/o1"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/eb1a"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/eb2niw"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/undeterminedVisaType"
+        }
+      ]
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/helpDetails",
+      "label": "How can we help you?",
+      "options": {
+        "multi": true
+      }
+    }
+  ],
+  "className": "assesment-form"
+}

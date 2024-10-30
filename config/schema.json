@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lastName": {
+      "type": "string",
+      "minLength": 1,
+      "title": "Last Name"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "country": {
+      "type": "string",
+      "enum": ["us", "ca", "uk", "other"],
+      "enumNames": ["United States", "Canada", "United Kingdom", "Other"]
+    },
+    "linkedin": {
+      "type": "string",
+      "format": "uri"
+    },
+    "o1": {
+      "type": "boolean"
+    },
+    "eb1a": {
+      "type": "boolean"
+    },
+    "eb2niw": {
+      "type": "boolean"
+    },
+    "undeterminedVisaType": {
+      "type": "boolean",
+      "title": "I don't know"
+    },
+    "helpDetails": {
+      "type": "string"
+    }
+  }
+}
