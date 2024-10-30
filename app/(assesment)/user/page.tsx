@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from "react";
 
-import Image from "next/image";
 import styles from "./page.module.css";
 import NewLeadForm from "@/components/NewLeadForm";
 
@@ -24,13 +23,6 @@ const AssessmentForm = () => {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <Image
-          src="/placeholder.svg"
-          alt="Alma logo"
-          width={100}
-          height={40}
-          className={styles.logo}
-        />
         <h1 className={styles.title}>
           Get An Assessment Of Your Immigration Case
         </h1>
