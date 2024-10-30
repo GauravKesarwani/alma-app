@@ -1,0 +1,208 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #f8fae5;
+  padding: 24px;
+  border-right: 1px solid #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.navItem {
+  padding: 8px 16px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.navItemActive {
+  background-color: white;
+  font-weight: 500;
+}
+
+.navItem:hover:not(.navItemActive) {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.content {
+  flex: 1;
+  padding: 32px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.filters {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.searchContainer {
+  flex: 1;
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px 16px 8px 40px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #c2d191;
+  box-shadow: 0 0 0 2px rgba(194, 209, 145, 0.2);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6b7280;
+}
+
+.select {
+  padding: 8px 32px 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236b7280'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 16px;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #c2d191;
+  box-shadow: 0 0 0 2px rgba(194, 209, 145, 0.2);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.tableHeader {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tableHeaderCell {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.tableHeaderCell:hover {
+  background-color: #f3f4f6;
+}
+
+.sortIcon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.tableCell {
+  padding: 12px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.statusBadge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.statusPending {
+  background-color: #fff7cd;
+  color: #7a4f01;
+}
+
+.statusReachedOut {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+  gap: 4px;
+}
+
+/* react-paginate styles */
+.paginationList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 4px;
+}
+
+.paginationLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 6px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #374151;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.paginationLink:hover {
+  background-color: #f3f4f6;
+}
+
+.paginationActive .paginationLink {
+  background-color: #c2d191;
+  border-color: #c2d191;
+  color: black;
+}
+
+.paginationDisabled .paginationLink {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.paginationBreak .paginationLink {
+  border: none;
+}

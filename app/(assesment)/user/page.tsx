@@ -35,7 +35,7 @@ const AssessmentForm = () => {
           Get An Assessment Of Your Immigration Case
         </h1>
       </header>
-      <section className={styles.formContainer}>
+      <section className={styles.section}>
         <h2>Want to understand your visa options ?</h2>
         <p>
           Submit the form below and our team of experienced attorneys will

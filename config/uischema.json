@@ -6,7 +6,8 @@
       "scope": "#/properties/firstName",
       "label": false,
       "options": {
-        "placeholder": "First Name"
+        "placeholder": "First Name",
+        "name": "firstname"
       }
     },
     {
