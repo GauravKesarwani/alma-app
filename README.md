@@ -35,5 +35,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 <img width="1710" alt="Screenshot 2024-10-29 at 10 17 53 PM" src="https://github.com/user-attachments/assets/4f535b10-9441-4794-87f6-db975c55e217">
+<img width="1697" alt="Screenshot 2024-10-29 at 10 42 31 PM" src="https://github.com/user-attachments/assets/cd2f45ca-685f-4133-8819-1e1d17d3c76a">
 
-<img width="1711" alt="Screenshot 2024-10-29 at 10 20 01 PM" src="https://github.com/user-attachments/assets/f8dbd8fd-9b7b-4ec0-9613-a27f9eac5619">
+
+<img width="1427" alt="Screenshot 2024-10-29 at 10 34 44 PM" src="https://github.com/user-attachments/assets/daef49d3-2fa9-45ec-9a40-7fb4fe9b9191">
+
